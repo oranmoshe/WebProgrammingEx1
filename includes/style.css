@@ -54,7 +54,7 @@ nav a:first-child{
 main{
 	background-color:#F8F8F8;
 	color: #343434;
-	font-family: Tahoma, Geneva, sans-serif;; 
+	font-family: Tahoma, Geneva, sans-serif; font-size: 13px; 
 	border-top-left-radius: 2em;
 	padding: 30px 0px 200px 30px; /*200px bottom to simulates the link jumping*/
 }
