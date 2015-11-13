@@ -1,0 +1,112 @@
+*{
+	margin:0px;
+	padding:0px;
+	text-decoration: none;
+}
+html{
+	font-family: "Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 12px;
+}
+header, nav, section, footer, main, aside, article {
+	display:block;
+}
+header{
+	text-align: left;
+	vertical-align: middle;
+	line-height: 160px;
+	height:160px;
+}
+nav{
+	text-align: left;
+	vertical-align: middle;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;	font-size: 14px;
+	background-color: #343434;
+	border-top-right-radius: 2em;
+	border-bottom-left-radius: 2em;
+	padding-left: 30px;
+
+}
+nav a{
+	text-decoration: none;
+	color: #FCFCFC;
+	letter-spacing: 0.1sem;
+	padding: 7px 15px 7px 0px;
+	display: inline-block;
+}
+nav a:hover{
+	text-decoration: underline;
+	color: #ABABAB;	
+}
+nav a:first-child{
+	border: 0px;
+	padding-left: 0px;
+}
+#logo{
+	font-family: "Lucida Console", Monaco, monospace; font-size: 43px;
+	text-decoration:none;
+	color:#343434;
+	letter-spacing: 0.25em; 
+	padding: 30px;
+}
+#logo span{
+	font-family:"Courier New", Courier, monospace; font-size: 48px;
+}
+main{
+	background-color:#F8F8F8;
+	color: #343434;
+	font-family: Tahoma, Geneva, sans-serif; font-size: 12px; 
+	border-top-left-radius: 2em;
+	padding: 30px 0px 200px 30px; /*200px bottom to simulates the link jumping*/
+}
+main h1{
+	font-size: 30px;
+	font-weight:200;
+	color: #343434;
+	text-shadow: 2px 2px #E5ECFF;
+	padding: 10px 0px 10px 0px;
+}
+main img{
+	width:150px;
+	border-radius: 75px;
+}
+main article{
+	color: #5E5E5E;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	max-width: 600px;
+	margin: 15px 0px 15px 0px;
+	padding: 20px 10px 20px 10px;
+}
+main article h2{
+	color: #343434;
+	font-weight:500;
+	font-size: 16px;
+	padding-bottom: 10px;
+} 
+main article ul{
+	background-color: white;
+	list-style-position: inside;
+}
+main article ul li{
+	padding: 5px 0px 5px 0px;
+}
+main article#exercises a{
+	background-image: url(../images/bgr.jpg);
+	color: #D1D1D1;
+	border-radius: 3px;
+	padding: 5px;
+}
+footer{
+	background-color:#F3F3F3;
+	font-size: 12px; font-color: #343434;
+	text-align: left;
+	vertical-align: middle;
+	height:30px;
+	line-height: 30px;
+	padding: 5px 0px 5px 30px;
+}
+footer a{
+	color: #2E2EB8;
+	font-size: 11px;
+	text-decoration: none;
+}
